@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="125c9513-3e46-4d38-8ba9-dd61296f3e93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/abstractfactory/Ejemplo/EjemploFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/abstractfactory/PizzaProducto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/abstractfactory/PizzeriaCaliforniaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/abstractfactory/PizzeriaNewYorkFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/abstractfactory/PizzeriaZonaAbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/abstractfactory/modelos/PizzaCaliforniaPepperoni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/abstractfactory/modelos/PizzaCaliforniaQueso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/abstractfactory/modelos/PizzaCaliforniaVegie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/abstractfactory/modelos/PizzaNewYorkItaliana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/abstractfactory/modelos/PizzaNewYorkPepperoni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/abstractfactory/modelos/PizzaNewYorkVegie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/decorador/ComponenteTexto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/decorador/Formateable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/decorador/decorator/MayusDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/decorador/decorator/ReeplazarEspaciosDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/decorador/decorator/ReversalDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/decorador/decorator/SubrayadoDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/decorador/decorator/TextoDecorador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/decorador/ejemplo/EjemploDecorador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -63,7 +61,20 @@
       <recent name="com.uduran.patrones.abstractfactory.modelos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploFactory">
+  <component name="RunManager" selected="Application.EjemploDecorador">
+    <configuration name="EjemploDecorador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uduran.patrones.decorador.ejemplo.EjemploDecorador" />
+      <module name="patrones_diseno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uduran.patrones.decorador.ejemplo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EjemploFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.uduran.patrones.abstractfactory.Ejemplo.EjemploFactory" />
       <module name="patrones_diseno" />
@@ -92,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploDecorador" />
         <item itemvalue="Application.EjemploFactory" />
         <item itemvalue="Application.EjemploSingleton" />
       </list>
