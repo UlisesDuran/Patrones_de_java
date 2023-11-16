@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="125c9513-3e46-4d38-8ba9-dd61296f3e93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/decorador/ComponenteTexto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/decorador/Formateable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/decorador/decorator/MayusDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/decorador/decorator/ReeplazarEspaciosDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/decorador/decorator/ReversalDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/decorador/decorator/SubrayadoDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/decorador/decorator/TextoDecorador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/decorador/ejemplo/EjemploDecorador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/composite/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/composite/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/composite/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/composite/ejemplo/EjemploComposite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/composite/ejemplo/EjemploCompositeBuscar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/observer/Corporacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/observer/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/observer/UsuarioRepositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/observer/ejemplo/EjemploObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/patrones/observer/ejemplo/EjemploObserver2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,10 +61,37 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.uduran.patrones.composite.ejemplo" />
       <recent name="com.uduran.patrones.abstractfactory.modelos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploDecorador">
+  <component name="RunManager" selected="Application.EjemploObserver2">
+    <configuration name="EjemploComposite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uduran.patrones.composite.ejemplo.EjemploComposite" />
+      <module name="patrones_diseno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uduran.patrones.composite.ejemplo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploCompositeBuscar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uduran.patrones.composite.ejemplo.EjemploCompositeBuscar" />
+      <module name="patrones_diseno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uduran.patrones.composite.ejemplo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EjemploDecorador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.uduran.patrones.decorador.ejemplo.EjemploDecorador" />
       <module name="patrones_diseno" />
@@ -75,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.uduran.patrones.abstractfactory.Ejemplo.EjemploFactory" />
+    <configuration name="EjemploObserver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uduran.patrones.observer.ejemplo.EjemploObserver" />
       <module name="patrones_diseno" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.uduran.patrones.abstractfactory.Ejemplo.*" />
+          <option name="PATTERN" value="com.uduran.patrones.observer.ejemplo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.uduran.patrones.singleton.EjemploSingleton" />
+    <configuration name="EjemploObserver2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uduran.patrones.observer.ejemplo.EjemploObserver2" />
       <module name="patrones_diseno" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.uduran.patrones.singleton.*" />
+          <option name="PATTERN" value="com.uduran.patrones.observer.ejemplo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,9 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploObserver2" />
+        <item itemvalue="Application.EjemploObserver" />
+        <item itemvalue="Application.EjemploComposite" />
+        <item itemvalue="Application.EjemploCompositeBuscar" />
         <item itemvalue="Application.EjemploDecorador" />
-        <item itemvalue="Application.EjemploFactory" />
-        <item itemvalue="Application.EjemploSingleton" />
       </list>
     </recent_temporary>
   </component>
@@ -119,5 +151,28 @@
       <updated>1700038727171</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
